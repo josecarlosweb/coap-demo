@@ -58,7 +58,7 @@ node actuator_one.js
 ### Servidor
  - Endpoint /temperature:
    - PUT: Atualiza a temperatura com os dados enviados pelo cliente.
-  - GET: Retorna a última temperatura registrada.
+   - GET: Retorna a última temperatura registrada.
 
 ### Cliente 1 (Sensor de Temperatura)
 Gera valores de temperatura entre 25°C e 35°C e os envia para o servidor via PUT no endpoint /temperature.
